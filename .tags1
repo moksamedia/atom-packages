@@ -1,0 +1,15 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+url	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/atom-test-package.coffee	/^url = require 'url'$/;"	variable	line:2
+module.exports	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/atom-test-package.coffee	/^module.exports = AtomTestPackage =$/;"	variable	line:6
+activate	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/atom-test-package.coffee	/^  activate: (state) ->$/;"	method	line:12
+deactivate	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/atom-test-package.coffee	/^  deactivate: ->$/;"	method	line:21
+getTokens	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/atom-test-package.coffee	/^  getTokens: (coffeeText) ->$/;"	method	line:24
+printTokens	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/atom-test-package.coffee	/^  printTokens: (tokens) ->$/;"	method	line:27
+isCoffee	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/atom-test-package.coffee	/^  isCoffee: (fileName) ->$/;"	method	line:30
+go	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/atom-test-package.coffee	/^  go: ->$/;"	method	line:33
+editor	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/atom-test-package.coffee	/^    editor = atom.workspace.getActiveTextEditor()$/;"	variable	line:35

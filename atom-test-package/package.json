@@ -1,0 +1,20 @@
+{
+  "name": "atom-test-package",
+  "main": "./lib/atom-test-package",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "repository": "",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.1.0",
+    "fs": "0.0.2",
+    "loophole": "^1.1.0",
+    "madge": "^0.5.3",
+    "path": "^0.12.7",
+    "vue": "^1.0.13"
+  }
+}

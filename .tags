@@ -1,0 +1,234 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ctags	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-cache.coffee	/^ctags = require 'ctags'$/;"	variable	line:3
+fs	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-cache.coffee	/^fs = require "fs"$/;"	variable	line:4
+path	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-cache.coffee	/^path = require "path"$/;"	variable	line:5
+getTagsFile	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-cache.coffee	/^getTagsFile = (directoryPath) ->$/;"	function	line:7
+matchOpt	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-cache.coffee	/^matchOpt = {matchBase: true}$/;"	variable	line:11
+module.exports	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-cache.coffee	/^module.exports =$/;"	variable	line:12
+activate	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-cache.coffee	/^  activate: () ->$/;"	method	line:13
+cachedTags	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-cache.coffee	/^    @cachedTags = {}$/;"	field	line:14
+extraTags	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-cache.coffee	/^    @extraTags = {}$/;"	field	line:15
+deactivate	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-cache.coffee	/^  deactivate: ->$/;"	method	line:17
+initTags	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-cache.coffee	/^  initTags: (paths, auto)->$/;"	method	line:20
+cachedTags	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-cache.coffee	/^    @cachedTags = {}$/;"	field	line:22
+tagsFile	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-cache.coffee	/^      tagsFile = getTagsFile(p)$/;"	variable	line:24
+initExtraTags	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-cache.coffee	/^  initExtraTags: (paths) ->$/;"	method	line:30
+extraTags	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-cache.coffee	/^    @extraTags = {}$/;"	field	line:31
+p	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-cache.coffee	/^      p = p.trim()$/;"	variable	line:33
+readTags	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-cache.coffee	/^  readTags: (p, container, callback) ->$/;"	method	line:37
+stream	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-cache.coffee	/^    stream = ctags.createReadStream(p)$/;"	variable	line:41
+data	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-cache.coffee	/^          data = []$/;"	variable	line:51
+findTags	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-cache.coffee	/^  findTags: (prefix, options) ->$/;"	method	line:59
+tags	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-cache.coffee	/^    tags = []$/;"	variable	line:60
+findOf	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-cache.coffee	/^  findOf: (source, tags, prefix, options)->$/;"	method	line:68
+generateTags	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-cache.coffee	/^  generateTags:(p, isAppend, callback) ->$/;"	method	line:78
+cmdArgs	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-cache.coffee	/^    cmdArgs = cmdArgs.split(" ") if cmdArgs$/;"	variable	line:85
+getOrCreateTags	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-cache.coffee	/^  getOrCreateTags: (filePath, callback) ->$/;"	method	line:93
+tags	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-cache.coffee	/^    tags = @cachedTags[filePath]$/;"	variable	line:94
+tags	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-cache.coffee	/^      tags = @cachedTags[filePath]$/;"	variable	line:98
+checkSnippet	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-provider.coffee	/^checkSnippet = (tag)->$/;"	function	line:1
+tagToSuggestion	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-provider.coffee	/^tagToSuggestion = (tag)->$/;"	function	line:8
+module.exports	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-provider.coffee	/^module.exports =$/;"	variable	line:14
+CtagsProvider	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-provider.coffee	/^class CtagsProvider$/;"	class	line:15
+selector	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-provider.coffee	/^  selector: '*'$/;"	field	line:16
+tag_options	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-provider.coffee	/^  tag_options = { partialMatch: true, maxItems: 10 }$/;"	variable	line:18
+getSuggestions	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-provider.coffee	/^  getSuggestions: ({editor, bufferPosition, scopeDescriptor, prefix}) ->$/;"	method	line:21
+suggestions	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-provider.coffee	/^    suggestions = []$/;"	variable	line:32
+output	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-provider.coffee	/^      output = {}$/;"	variable	line:34
+k	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-provider.coffee	/^      k = 0$/;"	variable	line:35
+tag	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/ctags-provider.coffee	/^        tag = matches[k++]$/;"	variable	line:37
+module.exports	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/file-view.coffee	/^module.exports =$/;"	variable	line:4
+FileView	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/file-view.coffee	/^class FileView extends SymbolsView$/;"	class	line:5
+initialize	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/file-view.coffee	/^  initialize: ->$/;"	method	line:6
+disposable	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/file-view.coffee	/^      disposable = editor.onDidSave =>$/;"	function	line:10
+f	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/file-view.coffee	/^        f = editor.getPath()$/;"	variable	line:11
+destroy	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/file-view.coffee	/^  destroy: ->$/;"	method	line:17
+viewForItem	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/file-view.coffee	/^  viewForItem: ({lineNumber, name, file, pattern}) ->$/;"	method	line:21
+toggle	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/file-view.coffee	/^  toggle: ->$/;"	method	line:32
+editor	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/file-view.coffee	/^      editor = atom.workspace.getActiveTextEditor()$/;"	variable	line:36
+filePath	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/file-view.coffee	/^      filePath = editor.getPath()$/;"	variable	line:38
+cancel	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/file-view.coffee	/^  cancel: ->$/;"	method	line:44
+toggleAll	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/file-view.coffee	/^  toggleAll: ->$/;"	method	line:49
+maxItems	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/file-view.coffee	/^      @maxItems = 10$/;"	field	line:54
+tags	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/file-view.coffee	/^      tags = []$/;"	variable	line:55
+getCurSymbol	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/file-view.coffee	/^  getCurSymbol: ->$/;"	method	line:61
+editor	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/file-view.coffee	/^    editor = atom.workspace.getActiveTextEditor()$/;"	variable	line:62
+cursor	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/file-view.coffee	/^    cursor = editor.getLastCursor()$/;"	variable	line:67
+rebuild	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/file-view.coffee	/^  rebuild: ->$/;"	method	line:75
+projectPaths	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/file-view.coffee	/^    projectPaths = atom.project.getPaths()$/;"	variable	line:76
+ctagsCache.cachedTags	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/file-view.coffee	/^    @ctagsCache.cachedTags = {}$/;"	field	line:80
+goto	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/file-view.coffee	/^  goto: ->$/;"	method	line:83
+symbol	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/file-view.coffee	/^    symbol = @getCurSymbol()$/;"	variable	line:84
+populate	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/file-view.coffee	/^  populate: (filePath) ->$/;"	method	line:97
+scrollToItemView	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/file-view.coffee	/^  scrollToItemView: (view) ->$/;"	method	line:105
+tag	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/file-view.coffee	/^    tag = @getSelectedItem()$/;"	variable	line:109
+scrollToPosition	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/file-view.coffee	/^  scrollToPosition: (position, select = true)->$/;"	method	line:112
+module.exports	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/go-back-view.coffee	/^module.exports =$/;"	variable	line:3
+GoBackView	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/go-back-view.coffee	/^class GoBackView extends SymbolsView$/;"	class	line:4
+toggle	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/go-back-view.coffee	/^  toggle: ->$/;"	method	line:5
+previousTag	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/go-back-view.coffee	/^    previousTag = @stack.pop()$/;"	variable	line:6
+MouseEventWhichDict	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^MouseEventWhichDict = {"left click": 1, "middle click": 2, "right click": 3}$/;"	variable	line:4
+module.exports	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^module.exports =$/;"	variable	line:5
+config	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^  config:$/;"	field	line:8
+disableComplete	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^    disableComplete:$/;"	field	line:9
+default	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^      default: false$/;"	field	line:11
+autoBuildTagsWhenActive	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^    autoBuildTagsWhenActive:$/;"	field	line:12
+title	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^      title: 'Automatically rebuild tags'$/;"	field	line:13
+default	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^      default: false$/;"	field	line:16
+buildTimeout	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^    buildTimeout:$/;"	field	line:17
+title	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^      title: 'Build timeout'$/;"	field	line:18
+default	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^      default: 5000$/;"	field	line:21
+cmd	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^    cmd:$/;"	field	line:22
+default	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^      default: ""$/;"	field	line:24
+cmdArgs	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^    cmdArgs:$/;"	field	line:25
+default	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^      default: ""$/;"	field	line:27
+extraTagFiles	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^    extraTagFiles:$/;"	field	line:28
+default	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^      default: ""$/;"	field	line:30
+GotoSymbolKey	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^    GotoSymbolKey:$/;"	field	line:31
+type	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^      type: 'array'$/;"	field	line:33
+default	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^      default: ["alt"]$/;"	field	line:34
+GotoSymbolClick	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^    GotoSymbolClick:$/;"	field	line:35
+default	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^      default: "left click"$/;"	field	line:37
+enum	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^      enum: ["left click", "middle click", "right click"]$/;"	field	line:38
+activate	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^  activate: ->$/;"	method	line:42
+stack	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^    @stack = []$/;"	field	line:43
+ctagsCache.cmdArgs	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^      @ctagsCache.cmdArgs = cmdArgs if Array.isArray(cmdArgs)$/;"	field	line:55
+editorView	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^      editorView = atom.views.getView(editor)$/;"	variable	line:70
+initExtraTagsTime	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^      initExtraTagsTime = setTimeout((=>$/;"	function	line:92
+deactivate	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^  deactivate: ->$/;"	method	line:97
+createFileView	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^  createFileView: ->$/;"	method	line:120
+fileView.ctagsCache	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^      @fileView.ctagsCache = @ctagsCache$/;"	field	line:124
+createGoBackView	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^  createGoBackView: ->$/;"	method	line:127
+provide	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^  provide: ->$/;"	method	line:133
+provider.ctagsCache	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/main.coffee	/^      @provider.ctagsCache = @ctagsCache$/;"	field	line:137
+module.exports	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/symbols-view.coffee	/^module.exports =$/;"	variable	line:5
+SymbolsView	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/symbols-view.coffee	/^class SymbolsView extends SelectListView$/;"	class	line:6
+activate	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/symbols-view.coffee	/^  @activate: ->$/;"	method	line:7
+initialize	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/symbols-view.coffee	/^  initialize: (@stack) ->$/;"	method	line:10
+stack	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/symbols-view.coffee	/^  initialize: (@stack) ->$/;"	field	line:10
+destroy	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/symbols-view.coffee	/^  destroy: ->$/;"	method	line:15
+getFilterKey	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/symbols-view.coffee	/^  getFilterKey: -> 'name'$/;"	method	line:19
+viewForItem	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/symbols-view.coffee	/^  viewForItem: ({lineNumber, name, file, directory}) ->$/;"	method	line:21
+getEmptyMessage	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/symbols-view.coffee	/^  getEmptyMessage: (itemCount) ->$/;"	method	line:27
+cancelled	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/symbols-view.coffee	/^  cancelled: ->$/;"	method	line:33
+getTagPosition	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/symbols-view.coffee	/^  getTagPosition: (tag) ->$/;"	method	line:41
+openTag	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/symbols-view.coffee	/^  openTag: (tag) ->$/;"	method	line:48
+previous	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/symbols-view.coffee	/^      previous =$/;"	variable	line:50
+file	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/symbols-view.coffee	/^        file: editor.getURI()$/;"	field	line:52
+moveToPosition	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/symbols-view.coffee	/^  moveToPosition: (position) ->$/;"	method	line:60
+attach	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/symbols-view.coffee	/^  attach: ->$/;"	method	line:65
+path	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/tag-generator.coffee	/^path = require 'path'$/;"	variable	line:2
+fs	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/tag-generator.coffee	/^fs = require "fs"$/;"	variable	line:3
+exec	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/tag-generator.coffee	/^exec = require('child_process').exec$/;"	variable	line:4
+error	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/tag-generator.coffee	/^error = (message, className) ->$/;"	function	line:8
+message	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/tag-generator.coffee	/^    message: message$/;"	field	line:15
+raw	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/tag-generator.coffee	/^    raw: true$/;"	field	line:17
+simpleExec	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/tag-generator.coffee	/^simpleExec = (command, exit)->$/;"	function	line:19
+getProjectPath	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/tag-generator.coffee	/^getProjectPath = (codepath) ->$/;"	function	line:25
+dirPath	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/tag-generator.coffee	/^    dirPath = directory.getPath()$/;"	variable	line:27
+exports	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/tag-generator.coffee	/^module.exports = (codepath, isAppend, cmdArgs, callback)->$/;"	function	line:30
+tags	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/tag-generator.coffee	/^  tags = []$/;"	variable	line:31
+defaultCtagsFile	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/tag-generator.coffee	/^  defaultCtagsFile = require.resolve('.\/.ctags')$/;"	variable	line:35
+projectPath	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/tag-generator.coffee	/^  projectPath = getProjectPath(codepath)$/;"	variable	line:37
+genPath	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/tag-generator.coffee	/^    genPath = tagsPath$/;"	variable	line:42
+args	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/tag-generator.coffee	/^  args = []$/;"	variable	line:44
+stderr	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/tag-generator.coffee	/^  stderr = (data)->$/;"	function	line:50
+exit	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/tag-generator.coffee	/^  exit = ->$/;"	function	line:53
+t	/Users/cantgetnosleep/development/atom-packages/atom-ctags/lib/tag-generator.coffee	/^  t = setTimeout ->$/;"	function	line:67
+maps	/Users/cantgetnosleep/development/atom-packages/atom-htmlizer/lib/atom-htmlizer.coffee	/^maps = require ".\/maps"$/;"	variable	line:1
+module.exports	/Users/cantgetnosleep/development/atom-packages/atom-htmlizer/lib/atom-htmlizer.coffee	/^module.exports =$/;"	variable	line:3
+activate	/Users/cantgetnosleep/development/atom-packages/atom-htmlizer/lib/atom-htmlizer.coffee	/^  activate: ->$/;"	method	line:5
+toggle	/Users/cantgetnosleep/development/atom-packages/atom-htmlizer/lib/atom-htmlizer.coffee	/^  toggle: (type)->$/;"	method	line:11
+editor	/Users/cantgetnosleep/development/atom-packages/atom-htmlizer/lib/atom-htmlizer.coffee	/^    editor = atom.workspace.getActiveEditor()$/;"	variable	line:12
+selection	/Users/cantgetnosleep/development/atom-packages/atom-htmlizer/lib/atom-htmlizer.coffee	/^    selection = editor.getSelectedText()$/;"	variable	line:15
+typeScope	/Users/cantgetnosleep/development/atom-packages/atom-htmlizer/lib/atom-htmlizer.coffee	/^    typeScope = maps[type]$/;"	variable	line:16
+module.exports	/Users/cantgetnosleep/development/atom-packages/atom-htmlizer/lib/maps.coffee	/^module.exports =$/;"	variable	line:1
+activate	/Users/cantgetnosleep/development/atom-packages/atom-htmlizer/lib/maps.coffee	/^      activate: (text)-> "<strong>#{text}<\/strong>"$/;"	method	line:4
+activate	/Users/cantgetnosleep/development/atom-packages/atom-htmlizer/lib/maps.coffee	/^      activate: (text)-> "**#{text}**"$/;"	method	line:8
+activate	/Users/cantgetnosleep/development/atom-packages/atom-htmlizer/lib/maps.coffee	/^      activate: (text)-> "font-weight: bold;";$/;"	method	line:12
+activate	/Users/cantgetnosleep/development/atom-packages/atom-htmlizer/lib/maps.coffee	/^      activate: (text)-> "<em>#{text}<\/em>"$/;"	method	line:17
+activate	/Users/cantgetnosleep/development/atom-packages/atom-htmlizer/lib/maps.coffee	/^      activate: (text)-> "*#{text}*"$/;"	method	line:21
+activate	/Users/cantgetnosleep/development/atom-packages/atom-htmlizer/lib/maps.coffee	/^      activate: (text)-> "font-style: italic;"$/;"	method	line:25
+activate	/Users/cantgetnosleep/development/atom-packages/atom-htmlizer/lib/maps.coffee	/^      activate: (text)-> "<u>#{text}<\/u>"$/;"	method	line:30
+activate	/Users/cantgetnosleep/development/atom-packages/atom-htmlizer/lib/maps.coffee	/^      activate: (text)-> "_#{text}_"$/;"	method	line:34
+activate	/Users/cantgetnosleep/development/atom-packages/atom-htmlizer/lib/maps.coffee	/^      activate: (text)-> "text-decoration: underline;"$/;"	method	line:38
+activate	/Users/cantgetnosleep/development/atom-packages/atom-htmlizer/lib/maps.coffee	/^      activate: (text)-> "<img src=\\"#{text}\\" alt=\\"\\">"$/;"	method	line:43
+activate	/Users/cantgetnosleep/development/atom-packages/atom-htmlizer/lib/maps.coffee	/^      activate: (text)-> "![](#{text})"$/;"	method	line:47
+activate	/Users/cantgetnosleep/development/atom-packages/atom-htmlizer/lib/maps.coffee	/^      activate: (text)-> "background-image: url(#{text});"$/;"	method	line:51
+scopeName	/Users/cantgetnosleep/development/atom-packages/atom-test-package/grammar/storywriter.cson	/^'scopeName': 'story-writer'$/;"	function	line:1
+name	/Users/cantgetnosleep/development/atom-packages/atom-test-package/grammar/storywriter.cson	/^'name': 'StoryWriter'$/;"	function	line:2
+fileTypes	/Users/cantgetnosleep/development/atom-packages/atom-test-package/grammar/storywriter.cson	/^'fileTypes': [$/;"	function	line:3
+module.exports	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/atom-test-package-old.coffee	/^module.exports = AtomTestPackage =$/;"	variable	line:3
+activate	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/atom-test-package-old.coffee	/^  activate: (state) ->$/;"	method	line:6
+checkTop	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/atom-test-package-old.coffee	/^    checkTop = @isAtTop$/;"	variable	line:13
+subscription	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/atom-test-package-old.coffee	/^      subscription = editor.onDidChangeScrollTop (scrollTop) ->$/;"	function	line:17
+deactivate	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/atom-test-package-old.coffee	/^  deactivate: ->$/;"	method	line:33
+isAtTop	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/atom-test-package-old.coffee	/^  isAtTop: (editor, scrollTop) ->$/;"	method	line:36
+module.exports	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/atom-test-package-view.coffee	/^module.exports =$/;"	variable	line:1
+AtomTestPackageView	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/atom-test-package-view.coffee	/^class AtomTestPackageView$/;"	class	line:2
+constructor	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/atom-test-package-view.coffee	/^  constructor: (serializedState) ->$/;"	method	line:3
+message.textContent	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/atom-test-package-view.coffee	/^    message.textContent = "The AtomTestPackage package is Alive! It's ALIVE!"$/;"	variable	line:10
+serialize	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/atom-test-package-view.coffee	/^  serialize: ->$/;"	method	line:15
+destroy	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/atom-test-package-view.coffee	/^  destroy: ->$/;"	method	line:18
+getElement	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/atom-test-package-view.coffee	/^  getElement: ->$/;"	method	line:21
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/styles/atom-test-package.less	/^@import "ui-variables";$/;"	class	line:5
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/styles/atom-test-package.less	/^.atom-test-package {$/;"	class	line:7
+module.exports	/Users/cantgetnosleep/development/atom-packages/atom-test-package-new/lib/atom-test-package-new-view.coffee	/^module.exports =$/;"	variable	line:1
+AtomTestPackageNewView	/Users/cantgetnosleep/development/atom-packages/atom-test-package-new/lib/atom-test-package-new-view.coffee	/^class AtomTestPackageNewView$/;"	class	line:2
+constructor	/Users/cantgetnosleep/development/atom-packages/atom-test-package-new/lib/atom-test-package-new-view.coffee	/^  constructor: (serializedState) ->$/;"	method	line:3
+message.textContent	/Users/cantgetnosleep/development/atom-packages/atom-test-package-new/lib/atom-test-package-new-view.coffee	/^    message.textContent = "The AtomTestPackageNew package is Alive! It's ALIVE!"$/;"	variable	line:10
+serialize	/Users/cantgetnosleep/development/atom-packages/atom-test-package-new/lib/atom-test-package-new-view.coffee	/^  serialize: ->$/;"	method	line:15
+destroy	/Users/cantgetnosleep/development/atom-packages/atom-test-package-new/lib/atom-test-package-new-view.coffee	/^  destroy: ->$/;"	method	line:18
+getElement	/Users/cantgetnosleep/development/atom-packages/atom-test-package-new/lib/atom-test-package-new-view.coffee	/^  getElement: ->$/;"	method	line:21
+module.exports	/Users/cantgetnosleep/development/atom-packages/atom-test-package-new/lib/atom-test-package-new.coffee	/^module.exports = AtomTestPackageNew =$/;"	variable	line:4
+activate	/Users/cantgetnosleep/development/atom-packages/atom-test-package-new/lib/atom-test-package-new.coffee	/^  activate: (state) ->$/;"	method	line:9
+deactivate	/Users/cantgetnosleep/development/atom-packages/atom-test-package-new/lib/atom-test-package-new.coffee	/^  deactivate: ->$/;"	method	line:19
+serialize	/Users/cantgetnosleep/development/atom-packages/atom-test-package-new/lib/atom-test-package-new.coffee	/^  serialize: ->$/;"	method	line:24
+atomTestPackageNewViewState	/Users/cantgetnosleep/development/atom-packages/atom-test-package-new/lib/atom-test-package-new.coffee	/^    atomTestPackageNewViewState: @atomTestPackageNewView.serialize()$/;"	field	line:25
+toggle	/Users/cantgetnosleep/development/atom-packages/atom-test-package-new/lib/atom-test-package-new.coffee	/^  toggle: ->$/;"	method	line:27
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package-new/styles/atom-test-package-new.less	/^@import "ui-variables";$/;"	class	line:5
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package-new/styles/atom-test-package-new.less	/^.atom-test-package-new {$/;"	class	line:7
+module.exports	/Users/cantgetnosleep/development/atom-packages/typewriter/lib/run.coffee	/^module.exports =$/;"	variable	line:1
+start	/Users/cantgetnosleep/development/atom-packages/typewriter/lib/run.coffee	/^  start: () ->$/;"	method	line:3
+editor	/Users/cantgetnosleep/development/atom-packages/typewriter/lib/run.coffee	/^      editor = atom.workspace.getActiveTextEditor()$/;"	variable	line:6
+currentScope	/Users/cantgetnosleep/development/atom-packages/typewriter/lib/run.coffee	/^        currentScope = editor.getRootScopeDescriptor().scopes[0]$/;"	variable	line:9
+characterWidth	/Users/cantgetnosleep/development/atom-packages/typewriter/lib/run.coffee	/^          characterWidth = editor.getDefaultCharWidth()$/;"	variable	line:12
+stop	/Users/cantgetnosleep/development/atom-packages/typewriter/lib/run.coffee	/^  stop: () ->$/;"	method	line:22
+module.exports	/Users/cantgetnosleep/development/atom-packages/typewriter/lib/typewriter.coffee	/^module.exports =$/;"	variable	line:3
+config	/Users/cantgetnosleep/development/atom-packages/typewriter/lib/typewriter.coffee	/^  config:$/;"	field	line:5
+scopes	/Users/cantgetnosleep/development/atom-packages/typewriter/lib/typewriter.coffee	/^    scopes:$/;"	field	line:6
+default	/Users/cantgetnosleep/development/atom-packages/typewriter/lib/typewriter.coffee	/^      default: 'text.md,source.gfm,text.html.mediawiki'$/;"	field	line:9
+activate	/Users/cantgetnosleep/development/atom-packages/typewriter/lib/typewriter.coffee	/^  activate: (state) ->$/;"	method	line:11
+editor	/Users/cantgetnosleep/development/atom-packages/typewriter/lib/typewriter.coffee	/^      editor = atom.workspace.getActiveTextEditor()$/;"	variable	line:29
+deactivate	/Users/cantgetnosleep/development/atom-packages/typewriter/lib/typewriter.coffee	/^  deactivate: (state) ->$/;"	method	line:38
+1	/Users/cantgetnosleep/development/atom-packages/typewriter/styles/typewriter.less	/^@import "syntax-variables";$/;"	class	line:1
+1	/Users/cantgetnosleep/development/atom-packages/typewriter/styles/typewriter.less	/^.item-views {$/;"	class	line:3
+1	/Users/cantgetnosleep/development/atom-packages/typewriter/styles/typewriter.less	/^  background: @syntax-background-color !important;$/;"	class	line:4
+1	/Users/cantgetnosleep/development/atom-packages/typewriter/styles/typewriter.less	/^[data-typewriter="true"] {$/;"	class	line:7
+1	/Users/cantgetnosleep/development/atom-packages/typewriter/styles/typewriter.less	/^  max-width: 100%;$/;"	class	line:8
+1	/Users/cantgetnosleep/development/atom-packages/typewriter/styles/typewriter.less	/^  margin: 0 auto;$/;"	class	line:9
+1	/Users/cantgetnosleep/development/atom-packages/typewriter/styles/typewriter.less	/^    .gutter {$/;"	class	line:12
+1	/Users/cantgetnosleep/development/atom-packages/typewriter/styles/typewriter.less	/^      display: none;$/;"	class	line:13
+1	/Users/cantgetnosleep/development/atom-packages/typewriter/styles/typewriter.less	/^    .editor--private {$/;"	class	line:15
+1	/Users/cantgetnosleep/development/atom-packages/typewriter/styles/typewriter.less	/^      .vertical-scrollbar {$/;"	class	line:16
+1	/Users/cantgetnosleep/development/atom-packages/typewriter/styles/typewriter.less	/^        opacity: 0;$/;"	class	line:17
+1	/Users/cantgetnosleep/development/atom-packages/typewriter/styles/typewriter.less	/^        transition: opacity .2s .1s;$/;"	class	line:18
+1	/Users/cantgetnosleep/development/atom-packages/typewriter/styles/typewriter.less	/^        opacity: 1;$/;"	class	line:21
+Madge	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/DependencyViewerModel.coffee	/^Madge = require 'madge'$/;"	variable	line:2
+setActiveEditor	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/DependencyViewerModel.coffee	/^  setActiveEditor: (editor) ->$/;"	method	line:8
+pathToFile	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/DependencyViewerModel.coffee	/^    pathToFile = editor.getPath()$/;"	variable	line:10
+isCoffee	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/DependencyViewerModel.coffee	/^  isCoffee: (fileName) ->$/;"	method	line:15
+url	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/atom-test-package.coffee	/^url = require 'url'$/;"	variable	line:2
+module.exports	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/atom-test-package.coffee	/^module.exports = AtomTestPackage =$/;"	variable	line:6
+activate	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/atom-test-package.coffee	/^  activate: (state) ->$/;"	method	line:12
+deactivate	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/atom-test-package.coffee	/^  deactivate: ->$/;"	method	line:21
+getTokens	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/atom-test-package.coffee	/^  getTokens: (coffeeText) ->$/;"	method	line:24
+printTokens	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/atom-test-package.coffee	/^  printTokens: (tokens) ->$/;"	method	line:27
+isCoffee	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/atom-test-package.coffee	/^  isCoffee: (fileName) ->$/;"	method	line:30
+go	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/atom-test-package.coffee	/^  go: ->$/;"	method	line:33
+editor	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/atom-test-package.coffee	/^    editor = atom.workspace.getActiveTextEditor()$/;"	variable	line:35

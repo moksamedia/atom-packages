@@ -1,0 +1,22 @@
+<div id="dependency-viewer-vue-template" class='dependency-viewer content'>
+  <div class='this-depends-on'>
+    <h3>This file depends on:</h3>
+    <ol>
+      <template v-for="dep in thisDependsOn">
+        <li>
+          <span>{{ dep }}<span>
+        </li>
+      </template>
+    </ol>
+  </div>
+  <div class='depends-on-this'>
+    <h3>Files that depend on this:</h3>
+  </div>
+  <ol>
+    <template v-for="dep in dependsOnThis">
+      <li>
+        <span>{{ dep }}<span>
+      </li>
+    </template>
+  </ol>
+</div>

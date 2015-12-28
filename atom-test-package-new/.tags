@@ -1,0 +1,52 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+0.1.0 - First Release	/Users/cantgetnosleep/development/atom-test-package-new/CHANGELOG.md	/^## 0.1.0 - First Release$/;"	function	line:1
+# Keybindings require three things to be fully defined	/Users/cantgetnosleep/development/atom-test-package-new/keymaps/atom-test-package-new.cson	/^# Keybindings require three things to be fully defined: A selector that is$/;"	function	line:1
+# https	/Users/cantgetnosleep/development/atom-test-package-new/keymaps/atom-test-package-new.cson	/^# https:\/\/atom.io\/docs\/latest\/behind-atom-keymaps-in-depth$/;"	function	line:9
+atom-workspace	/Users/cantgetnosleep/development/atom-test-package-new/keymaps/atom-test-package-new.cson	/^'atom-workspace':$/;"	function	line:10
+ctrl-alt-o	/Users/cantgetnosleep/development/atom-test-package-new/keymaps/atom-test-package-new.cson	/^  'ctrl-alt-o': 'atom-test-package-new:toggle'$/;"	function	line:11
+AtomTestPackageNewView	/Users/cantgetnosleep/development/atom-test-package-new/lib/atom-test-package-new-view.coffee	/^class AtomTestPackageNewView$/;"	function	line:2
+constructor	/Users/cantgetnosleep/development/atom-test-package-new/lib/atom-test-package-new-view.coffee	/^  constructor: (serializedState) ->$/;"	function	line:3
+serialize	/Users/cantgetnosleep/development/atom-test-package-new/lib/atom-test-package-new-view.coffee	/^  serialize: ->$/;"	function	line:15
+destroy	/Users/cantgetnosleep/development/atom-test-package-new/lib/atom-test-package-new-view.coffee	/^  destroy: ->$/;"	function	line:18
+getElement	/Users/cantgetnosleep/development/atom-test-package-new/lib/atom-test-package-new-view.coffee	/^  getElement: ->$/;"	function	line:21
+activate	/Users/cantgetnosleep/development/atom-test-package-new/lib/atom-test-package-new.coffee	/^  activate: (state) ->$/;"	function	line:9
+deactivate	/Users/cantgetnosleep/development/atom-test-package-new/lib/atom-test-package-new.coffee	/^  deactivate: ->$/;"	function	line:19
+serialize	/Users/cantgetnosleep/development/atom-test-package-new/lib/atom-test-package-new.coffee	/^  serialize: ->$/;"	function	line:24
+toggle	/Users/cantgetnosleep/development/atom-test-package-new/lib/atom-test-package-new.coffee	/^  toggle: ->$/;"	function	line:27
+# See https	/Users/cantgetnosleep/development/atom-test-package-new/menus/atom-test-package-new.cson	/^# See https:\/\/atom.io\/docs\/latest\/hacking-atom-package-word-count#menus for more details$/;"	function	line:1
+context-menu	/Users/cantgetnosleep/development/atom-test-package-new/menus/atom-test-package-new.cson	/^'context-menu':$/;"	function	line:2
+atom-text-editor	/Users/cantgetnosleep/development/atom-test-package-new/menus/atom-test-package-new.cson	/^  'atom-text-editor': [$/;"	function	line:3
+label	/Users/cantgetnosleep/development/atom-test-package-new/menus/atom-test-package-new.cson	/^      'label': 'Toggle atom-test-package-new'$/;"	function	line:5
+command	/Users/cantgetnosleep/development/atom-test-package-new/menus/atom-test-package-new.cson	/^      'command': 'atom-test-package-new:toggle'$/;"	function	line:6
+menu	/Users/cantgetnosleep/development/atom-test-package-new/menus/atom-test-package-new.cson	/^'menu': [$/;"	function	line:9
+label	/Users/cantgetnosleep/development/atom-test-package-new/menus/atom-test-package-new.cson	/^    'label': 'Packages'$/;"	function	line:11
+submenu	/Users/cantgetnosleep/development/atom-test-package-new/menus/atom-test-package-new.cson	/^    'submenu': [$/;"	function	line:12
+label	/Users/cantgetnosleep/development/atom-test-package-new/menus/atom-test-package-new.cson	/^      'label': 'atom-test-package-new'$/;"	function	line:13
+submenu	/Users/cantgetnosleep/development/atom-test-package-new/menus/atom-test-package-new.cson	/^      'submenu': [$/;"	function	line:14
+label	/Users/cantgetnosleep/development/atom-test-package-new/menus/atom-test-package-new.cson	/^          'label': 'Toggle'$/;"	function	line:16
+command	/Users/cantgetnosleep/development/atom-test-package-new/menus/atom-test-package-new.cson	/^          'command': 'atom-test-package-new:toggle'$/;"	function	line:17
+name	/Users/cantgetnosleep/development/atom-test-package-new/package.json	/^  "name": "atom-test-package-new",$/;"	function	line:2
+main	/Users/cantgetnosleep/development/atom-test-package-new/package.json	/^  "main": ".\/lib\/atom-test-package-new",$/;"	function	line:3
+version	/Users/cantgetnosleep/development/atom-test-package-new/package.json	/^  "version": "0.0.0",$/;"	function	line:4
+description	/Users/cantgetnosleep/development/atom-test-package-new/package.json	/^  "description": "A short description of your package",$/;"	function	line:5
+keywords	/Users/cantgetnosleep/development/atom-test-package-new/package.json	/^  "keywords": [$/;"	function	line:6
+activationCommands	/Users/cantgetnosleep/development/atom-test-package-new/package.json	/^  "activationCommands": {$/;"	function	line:8
+atom-workspace	/Users/cantgetnosleep/development/atom-test-package-new/package.json	/^    "atom-workspace": "atom-test-package-new:toggle"$/;"	function	line:9
+repository	/Users/cantgetnosleep/development/atom-test-package-new/package.json	/^  "repository": "https:\/\/github.com\/atom\/atom-test-package-new",$/;"	function	line:11
+license	/Users/cantgetnosleep/development/atom-test-package-new/package.json	/^  "license": "MIT",$/;"	function	line:12
+engines	/Users/cantgetnosleep/development/atom-test-package-new/package.json	/^  "engines": {$/;"	function	line:13
+atom	/Users/cantgetnosleep/development/atom-test-package-new/package.json	/^    "atom": ">=1.0.0 <2.0.0"$/;"	function	line:14
+dependencies	/Users/cantgetnosleep/development/atom-test-package-new/package.json	/^  "dependencies": {$/;"	function	line:16
+atom-test-package-new package	/Users/cantgetnosleep/development/atom-test-package-new/README.md	/^# atom-test-package-new package$/;"	function	line:1
+AtomTestPackageNew	/Users/cantgetnosleep/development/atom-test-package-new/spec/atom-test-package-new-spec.coffee	/^describe "AtomTestPackageNew", ->$/;"	function	line:8
+when the atom-test-package-new:toggle event is triggered	/Users/cantgetnosleep/development/atom-test-package-new/spec/atom-test-package-new-spec.coffee	/^  describe "when the atom-test-package-new:toggle event is triggered", ->$/;"	function	line:15
+hides and shows the modal panel	/Users/cantgetnosleep/development/atom-test-package-new/spec/atom-test-package-new-spec.coffee	/^    it "hides and shows the modal panel", ->$/;"	function	line:16
+hides and shows the view	/Users/cantgetnosleep/development/atom-test-package-new/spec/atom-test-package-new-spec.coffee	/^    it "hides and shows the view", ->$/;"	function	line:39
+AtomTestPackageNewView	/Users/cantgetnosleep/development/atom-test-package-new/spec/atom-test-package-new-view-spec.coffee	/^describe "AtomTestPackageNewView", ->$/;"	function	line:3
+has one valid test	/Users/cantgetnosleep/development/atom-test-package-new/spec/atom-test-package-new-view-spec.coffee	/^  it "has one valid test", ->$/;"	function	line:4
+.atom-test-package-new	/Users/cantgetnosleep/development/atom-test-package-new/styles/atom-test-package-new.less	/^.atom-test-package-new {$/;"	function	line:7

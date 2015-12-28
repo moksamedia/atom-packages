@@ -1,0 +1,20 @@
+'scopeName': 'text.storywriter'
+'name': 'StoryWriter'
+'fileTypes': [
+  'swr'
+]
+'patterns': [
+  {
+    'include': '#swrbold'
+  }
+]
+'repository':
+  'swrbold':
+    'captures':
+      '1':
+        'name': 'storywriter.bold.styling.leading'
+      '2':
+        'name': 'storywriter.bold.content'
+      '3':
+        'name': 'storywriter.bold.styling.trailing'
+    'match': '(\\*)(.*)(\\*)'
