@@ -4,11 +4,479 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-DependencyViewerElement	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/dependency-viewer-element.coffee	/^class DependencyViewerElement extends HTMLElement$/;"	class	line:4
-createdCallback	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/dependency-viewer-element.coffee	/^  createdCallback: ->$/;"	method	line:8
-attachedCallback	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/dependency-viewer-element.coffee	/^  attachedCallback: ->$/;"	method	line:11
-detachedCallback	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/dependency-viewer-element.coffee	/^  detachedCallback: ->$/;"	method	line:14
-initialize	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/dependency-viewer-element.coffee	/^  initialize: (model)->$/;"	method	line:17
-setModel	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/dependency-viewer-element.coffee	/^  setModel: (model) ->$/;"	method	line:22
-model	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/dependency-viewer-element.coffee	/^    @model = model$/;"	field	line:23
-initializeContent	/Users/cantgetnosleep/development/atom-packages/atom-test-package/lib/dependency-viewer-element.coffee	/^  initializeContent: (attributes) ->$/;"	method	line:26
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function set(obj, key, val) {$/;"	function	line:8
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function del(obj, key) {$/;"	function	line:42
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function hasOwn(obj, key) {$/;"	function	line:71
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function isLiteral(exp) {$/;"	function	line:84
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function isReserved(str) {$/;"	function	line:95
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function _toString(value) {$/;"	function	line:108
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function toNumber(value) {$/;"	function	line:120
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function toBoolean(value) {$/;"	function	line:136
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function stripQuotes(str) {$/;"	function	line:147
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function camelize(str) {$/;"	function	line:162
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function toUpper(_, c) {$/;"	function	line:166
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function hyphenate(str) {$/;"	function	line:179
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function classify(str) {$/;"	function	line:197
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function bind$1(fn, ctx) {$/;"	function	line:209
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function toArray(list, start) {$/;"	function	line:224
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function extend(to, from) {$/;"	function	line:241
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function isObject(obj) {$/;"	function	line:259
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var OBJECT_STRING = '[object Object]';$/;"	string	line:272
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function isPlainObject(obj) {$/;"	function	line:274
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function def(obj, key, val, enumerable) {$/;"	function	line:296
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^ * Debounce a function so it only gets called after the$/;"	function	line:306
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function _debounce(func, wait) {$/;"	function	line:314
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  var later = function later() {$/;"	function	line:316
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function indexOf(arr, obj) {$/;"	function	line:345
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function cancellable(fn) {$/;"	function	line:360
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  var cb = function cb() {$/;"	function	line:361
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function looseEqual(a, b) {$/;"	function	line:381
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var hasProto = ('__proto__' in {});$/;"	string	line:387
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  function nextTickHandler() {$/;"	function	line:425
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function Cache(limit) {$/;"	function	line:459
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  var entry = {$/;"	object	line:480
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function pushFilter() {$/;"	function	line:577
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    filter = {};$/;"	object	line:581
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function processFilterArg(arg) {$/;"	function	line:601
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function parseDirective(s) {$/;"	function	line:635
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  dir = {};$/;"	object	line:647
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function escapeRegex(str) {$/;"	function	line:715
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function compileRegex() {$/;"	function	line:719
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function parseText(text) {$/;"	function	line:741
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function tokensToExp(tokens) {$/;"	function	line:798
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function formatToken(token, single) {$/;"	function	line:816
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^ * have to inline those filters. This function does exactly$/;"	function	line:824
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function inlineFilters(exp, single) {$/;"	function	line:834
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var delimiters = ['{{', '}}'];$/;"	string	line:856
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var unsafeDelimiters = ['{{{', '}}}'];$/;"	string	line:857
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  _propBindingModes: {$/;"	object	line:920
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  delimiters: { \/**$/;"	object	line:933
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    get: function get() {$/;"	function	line:940
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    set: function set(val) {$/;"	function	line:943
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  unsafeDelimiters: {$/;"	object	line:950
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    get: function get() {$/;"	function	line:951
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    set: function set(val) {$/;"	function	line:954
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function appendWithTransition(el, target, vm, cb) {$/;"	function	line:993
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function beforeWithTransition(el, target, vm, cb) {$/;"	function	line:1008
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function removeWithTransition(el, vm, cb) {$/;"	function	line:1022
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function applyTransition(el, direction, op, vm, cb) {$/;"	function	line:1040
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function query(el) {$/;"	function	line:1067
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function inDoc(node) {$/;"	function	line:1090
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function getAttr(node, _attr) {$/;"	function	line:1103
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function getBindAttr(node, name) {$/;"	function	line:1119
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function hasBindAttr(node, name) {$/;"	function	line:1135
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function before(el, target) {$/;"	function	line:1146
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function after(el, target) {$/;"	function	line:1157
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function remove(el) {$/;"	function	line:1171
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function prepend(el, target) {$/;"	function	line:1182
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function replace(target, el) {$/;"	function	line:1197
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function on$1(el, event, cb) {$/;"	function	line:1212
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function off(el, event, cb) {$/;"	function	line:1224
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function setClass(el, cls) {$/;"	function	line:1238
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function addClass(el, cls) {$/;"	function	line:1254
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    var cur = ' ' + (el.getAttribute('class') || '') + ' ';$/;"	string	line:1258
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function removeClass(el, cls) {$/;"	function	line:1272
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    var cur = ' ' + (el.getAttribute('class') || '') + ' ';$/;"	string	line:1276
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    var tar = ' ' + cls + ' ';$/;"	string	line:1277
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function extractContent(el, asFragment) {$/;"	function	line:1297
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function trimNode(node) {$/;"	function	line:1322
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function trim(parent, node) {$/;"	function	line:1327
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function isTemplate(el) {$/;"	function	line:1341
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function createAnchor(content, persist) {$/;"	function	line:1363
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function findRef(node) {$/;"	function	line:1378
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^ * Map a function to a range of nodes .$/;"	function	line:1391
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function mapNodeRange(node, end, op) {$/;"	function	line:1398
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function removeNodeRange(start, end, vm, frag, cb) {$/;"	function	line:1420
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  function onRemoved() {$/;"	function	line:1429
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function checkComponentAttr(el, options) {$/;"	function	line:1452
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function getIsBinding(el) {$/;"	function	line:1483
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function initProp(vm, prop, value) {$/;"	function	line:1504
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function assertProp(prop, value) {$/;"	function	line:1517
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^      expectedType = 'string';$/;"	string	line:1529
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^      expectedType = 'number';$/;"	string	line:1532
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^      expectedType = 'boolean';$/;"	string	line:1535
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^      expectedType = 'function';$/;"	string	line:1538
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^      expectedType = 'object';$/;"	string	line:1541
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^      expectedType = 'array';$/;"	string	line:1544
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function coerceProp(prop, value) {$/;"	function	line:1572
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function formatType(val) {$/;"	function	line:1581
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function formatValue(val) {$/;"	function	line:1585
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function mergeData(to, from) {$/;"	function	line:1607
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    \/\/ we need to return a function that returns the$/;"	function	line:1639
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    \/\/ check if parentVal is a function here because$/;"	function	line:1641
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    \/\/ it has to be a function to pass previous merges.$/;"	function	line:1642
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    return function mergedDataFn() {$/;"	function	line:1643
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    return function mergedInstanceDataFn() {$/;"	function	line:1647
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function mergeAssets(parentVal, childVal) {$/;"	function	line:1699
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  var ret = {};$/;"	object	line:1718
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var defaultStrat = function defaultStrat(parentVal, childVal) {$/;"	function	line:1748
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function guardComponents(options) {$/;"	function	line:1759
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function guardProps(options) {$/;"	function	line:1785
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    options.props = {};$/;"	object	line:1789
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function guardArrayAssets(assets) {$/;"	function	line:1819
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    var res = {};$/;"	object	line:1821
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function mergeOptions(parent, child, vm) {$/;"	function	line:1848
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  var options = {};$/;"	object	line:1851
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  function mergeField(key) {$/;"	function	line:1866
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^ * This function is used because child instances need access$/;"	function	line:1875
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function resolveAsset(options, type, id) {$/;"	function	line:1884
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function assertAsset(val, type, id) {$/;"	function	line:1898
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  def(arrayMethods, method, function mutator() {$/;"	function	line:1914
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^def(arrayProto, '$set', function $set(index, val) {$/;"	function	line:1952
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^def(arrayProto, '$remove', function $remove(item) {$/;"	function	line:1966
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function Dep() {$/;"	function	line:1983
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function Observer(value) {$/;"	function	line:2045
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function protoAugment(target, src) {$/;"	function	line:2133
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function copyAugment(target, src, keys) {$/;"	function	line:2145
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function observe(value, vm) {$/;"	function	line:2163
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function defineReactive(obj, key, val) {$/;"	function	line:2187
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    get: function reactiveGetter() {$/;"	function	line:2205
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    set: function reactiveSetter(newVal) {$/;"	function	line:2221
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function initMixin (Vue) {$/;"	function	line:2307
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    this.$refs = {}; \/\/ child vm references$/;"	object	line:2328
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    this.$els = {}; \/\/ element references$/;"	object	line:2329
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    this._events = {}; \/\/ registered callbacks$/;"	object	line:2340
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    this._eventsCount = {}; \/\/ for $broadcast optimization$/;"	object	line:2341
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    this._data = {};$/;"	object	line:2388
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function getPathCharType(ch) {$/;"	function	line:2487
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function formatSubPath(path) {$/;"	function	line:2543
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function parse(path) {$/;"	function	line:2559
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  function maybeUnescapeQuote() {$/;"	function	line:2604
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^      newChar = '\\\\' + nextChar;$/;"	string	line:2608
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function parsePath(path) {$/;"	function	line:2654
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function getPath(obj, path) {$/;"	function	line:2672
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function setPath(obj, path, val) {$/;"	function	line:2695
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^        obj = {};$/;"	object	line:2713
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var allowedKeywords = 'Math,Date,this,true,false,null,undefined,Infinity,NaN,' + 'isNaN,isFinite,decodeURI,decodeURIComponent,encodeURI,' + 'encodeURIComponent,parseInt,parseFloat';$/;"	string	line:2743
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var improperKeywords = 'break,case,class,catch,const,continue,debugger,default,' + 'delete,do,else,export,extends,finally,for,function,if,' + 'import,in,instanceof,let,return,super,switch,throw,try,' + 'var,while,with,yield,enum,await,implements,package,' + 'proctected,static,interface,private,public';$/;"	string	line:2747
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var restoreRE = \/"(\\d+)"\/g;$/;"	string	line:2753
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^ * generating the function body.$/;"	function	line:2778
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function save(str, isString) {$/;"	function	line:2785
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function rewrite(raw) {$/;"	function	line:2798
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function restore(str, i) {$/;"	function	line:2817
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function compileGetter(exp) {$/;"	function	line:2829
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  body = (' ' + body).replace(identRE, rewrite).replace(restoreRE, restore);$/;"	string	line:2839
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^ * optimization of the parse function when it is not called.$/;"	function	line:2847
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function makeGetterFn(body) {$/;"	function	line:2853
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    console.log("makeGetterFn.body = " + body)$/;"	string	line:2855
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    process.env.NODE_ENV !== 'production' && warn('Invalid expression. ' + 'Generated function body: ' + body);$/;"	function	line:2858
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^ * Compile a setter function for the expression.$/;"	function	line:2863
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function compileSetter(exp) {$/;"	function	line:2869
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function parseExpression(exp, needSet) {$/;"	function	line:2888
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  var res = { exp: exp };$/;"	object	line:2898
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function isSimplePath(exp) {$/;"	function	line:2918
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var has = {};$/;"	object	line:2939
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var circular = {};$/;"	object	line:2940
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function resetBatcherState() {$/;"	function	line:2948
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  has = {};$/;"	object	line:2951
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  circular = {};$/;"	object	line:2952
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function flushBatcherQueue() {$/;"	function	line:2960
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function runBatcherQueue(queue) {$/;"	function	line:2980
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function pushWatcher(watcher) {$/;"	function	line:3010
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function Watcher(vm, expOrFn, cb, options) {$/;"	function	line:3052
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function traverse(val) {$/;"	function	line:3317
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var cloak = {$/;"	object	line:3329
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  bind: function bind() {$/;"	function	line:3330
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var ref = {$/;"	object	line:3338
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  bind: function bind() {$/;"	function	line:3339
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var el = {$/;"	object	line:3355
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  bind: function bind() {$/;"	function	line:3359
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  unbind: function unbind() {$/;"	function	line:3373
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var prefixes = ['-webkit-', '-moz-', '-ms-'];$/;"	string	line:3381
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var camelPrefixes = ['Webkit', 'Moz', 'ms'];$/;"	string	line:3382
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var style = {$/;"	object	line:3388
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  update: function update(value) {$/;"	function	line:3392
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  handleObject: function handleObject(value) {$/;"	function	line:3402
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    var cache = this.cache || (this.cache = {});$/;"	object	line:3405
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  handleSingle: function handleSingle(prop, value) {$/;"	function	line:3422
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    if (value != null) value += '';$/;"	string	line:3426
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function normalize(prop) {$/;"	function	line:3450
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function prefix(prop) {$/;"	function	line:3467
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var xlinkNS = 'http:\/\/www.w3.org\/1999\/xlink';$/;"	string	line:3488
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var modelProps = {$/;"	object	line:3500
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var bind = {$/;"	object	line:3506
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  bind: function bind() {$/;"	function	line:3510
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  update: function update(value) {$/;"	function	line:3542
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  handleSingle: function handleSingle(attr, value) {$/;"	function	line:3557
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^          value += ' ' + el.__v_trans.id + '-transition';$/;"	string	line:3585
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var keyCodes = {$/;"	object	line:3600
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function keyFilter(handler, keys) {$/;"	function	line:3612
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  return function keyHandler(e) {$/;"	function	line:3626
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function stopFilter(handler) {$/;"	function	line:3633
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  return function stopHandler(e) {$/;"	function	line:3634
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function preventFilter(handler) {$/;"	function	line:3640
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  return function preventHandler(e) {$/;"	function	line:3641
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var on = {$/;"	object	line:3647
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  bind: function bind() {$/;"	function	line:3652
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  update: function update(handler) {$/;"	function	line:3663
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^      process.env.NODE_ENV !== 'production' && warn('v-on:' + this.arg + '="' + this.expression + '" expects a function value, ' + 'got ' + handler);$/;"	function	line:3671
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  reset: function reset() {$/;"	function	line:3700
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  unbind: function unbind() {$/;"	function	line:3707
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var checkbox = {$/;"	object	line:3712
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  bind: function bind() {$/;"	function	line:3714
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    function getBooleanValue() {$/;"	function	line:3722
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  update: function update(value) {$/;"	function	line:3755
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var select = {$/;"	object	line:3769
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  bind: function bind() {$/;"	function	line:3771
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  update: function update(value) {$/;"	function	line:3806
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  unbind: function unbind() {$/;"	function	line:3822
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function getValue(el, multi, init) {$/;"	function	line:3837
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function indexOf$1(arr, val) {$/;"	function	line:3863
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var radio = {$/;"	object	line:3873
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  bind: function bind() {$/;"	function	line:3875
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  update: function update(value) {$/;"	function	line:3901
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var text$2 = {$/;"	object	line:3906
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  bind: function bind() {$/;"	function	line:3908
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  update: function update(value) {$/;"	function	line:4019
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  unbind: function unbind() {$/;"	function	line:4023
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var handlers = {$/;"	object	line:4032
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var model = {$/;"	object	line:4039
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  bind: function bind() {$/;"	function	line:4057
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  checkFilters: function checkFilters() {$/;"	function	line:4086
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  unbind: function unbind() {$/;"	function	line:4101
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var show = {$/;"	object	line:4107
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  bind: function bind() {$/;"	function	line:4109
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  update: function update(value) {$/;"	function	line:4117
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  apply: function apply(el, value) {$/;"	function	line:4124
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    function toggle() {$/;"	function	line:4130
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var map = {$/;"	object	line:4139
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function isRealTemplate(node) {$/;"	function	line:4162
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function stringToFragment(templateString, raw) {$/;"	function	line:4179
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function nodeToFragment(node) {$/;"	function	line:4229
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    a.innerHTML = '<template>1<\/template>';$/;"	string	line:4259
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    t.placeholder = 't';$/;"	string	line:4271
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function cloneNode(node) {$/;"	function	line:4288
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function parseTemplate(template, shouldClone, raw) {$/;"	function	line:4346
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function Fragment(linker, vm, frag, host, scope, parentFrag) {$/;"	function	line:4396
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function singleBefore(target, withTransition) {$/;"	function	line:4462
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function singleRemove() {$/;"	function	line:4475
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function multiBefore(target, withTransition) {$/;"	function	line:4495
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function multiRemove() {$/;"	function	line:4511
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function attach(child) {$/;"	function	line:4530
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function destroyChild(child) {$/;"	function	line:4546
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function detach(child) {$/;"	function	line:4556
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function FragmentFactory(vm, el) {$/;"	function	line:4571
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var vIf = {$/;"	object	line:4611
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  bind: function bind() {$/;"	function	line:4615
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  update: function update(value) {$/;"	function	line:4634
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  insert: function insert() {$/;"	function	line:4645
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  remove: function remove() {$/;"	function	line:4654
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  unbind: function unbind() {$/;"	function	line:4665
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var vFor = {$/;"	object	line:4674
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  bind: function bind() {$/;"	function	line:4680
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    this.id = '__v-for__' + ++uid$1;$/;"	string	line:4700
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  update: function update(data) {$/;"	function	line:4724
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  diff: function diff(data) {$/;"	function	line:4744
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  create: function create(value, alias, index, key) {$/;"	function	line:4853
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  updateRef: function updateRef() {$/;"	function	line:4887
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^      refs = {};$/;"	object	line:4895
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  updateModel: function updateModel() {$/;"	function	line:4908
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  insert: function insert(frag, index, prevEl, inDocument) {$/;"	function	line:4927
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  remove: function remove(frag, index, total, inDocument) {$/;"	function	line:4963
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  move: function move(frag, prevEl) {$/;"	function	line:4994
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  cacheFrag: function cacheFrag(value, frag, index, key) {$/;"	function	line:5007
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  getCachedFrag: function getCachedFrag(value, index, key) {$/;"	function	line:5043
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  deleteCachedFrag: function deleteCachedFrag(frag) {$/;"	function	line:5065
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  getStagger: function getStagger(frag, index, total, type) {$/;"	function	line:5092
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  _preProcess: function _preProcess(value) {$/;"	function	line:5105
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  _postProcess: function _postProcess(value) {$/;"	function	line:5120
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  unbind: function unbind() {$/;"	function	line:5145
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function findPrevFrag(frag, anchor, id) {$/;"	function	line:5177
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function findVmFromFrag(frag) {$/;"	function	line:5198
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function range(n) {$/;"	function	line:5216
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var html = {$/;"	object	line:5231
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  bind: function bind() {$/;"	function	line:5233
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  update: function update(value) {$/;"	function	line:5245
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  swap: function swap(value) {$/;"	function	line:5254
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var text = {$/;"	object	line:5269
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  bind: function bind() {$/;"	function	line:5271
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  update: function update(value) {$/;"	function	line:5275
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var publicDirectives = {$/;"	object	line:5281
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function pushJob(job) {$/;"	function	line:5304
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function flush() {$/;"	function	line:5317
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function Transition(el, id, hooks, vm) {$/;"	function	line:5344
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  this.typeCache = {};$/;"	object	line:5355
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function isHidden(el) {$/;"	function	line:5665
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var transition = {$/;"	object	line:5669
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  update: function update(id, oldId) {$/;"	function	line:5673
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var propDef = {$/;"	object	line:5689
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  bind: function bind() {$/;"	function	line:5691
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  unbind: function unbind() {$/;"	function	line:5735
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var component = {$/;"	object	line:5743
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  bind: function bind() {$/;"	function	line:5759
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^        this.cache = {};$/;"	object	line:5764
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  update: function update(value) {$/;"	function	line:5802
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  setComponent: function setComponent(value, cb) {$/;"	function	line:5821
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  resolveComponent: function resolveComponent(id, cb) {$/;"	function	line:5841
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  mountComponent: function mountComponent(cb) {$/;"	function	line:5860
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  invalidatePending: function invalidatePending() {$/;"	function	line:5891
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  build: function build(extraOptions) {$/;"	function	line:5907
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^      var options = {$/;"	object	line:5914
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  getCached: function getCached() {$/;"	function	line:5967
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  unbuild: function unbuild(defer) {$/;"	function	line:5978
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  remove: function remove(child, cb) {$/;"	function	line:6004
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  transition: function transition(target, cb) {$/;"	function	line:6035
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  unbind: function unbind() {$/;"	function	line:6065
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var vClass = {$/;"	object	line:6079
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  update: function update(value) {$/;"	function	line:6083
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  handleObject: function handleObject(value) {$/;"	function	line:6095
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  handleArray: function handleArray(value) {$/;"	function	line:6108
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  cleanup: function cleanup(value) {$/;"	function	line:6118
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function stringToObject(value) {$/;"	function	line:6131
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  var res = {};$/;"	object	line:6132
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function contains$1(value, key) {$/;"	function	line:6141
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var internalDirectives = {$/;"	object	line:6145
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var empty = {};$/;"	object	line:6154
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function compileProps(el, propOptions) {$/;"	function	line:6169
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    prop = {$/;"	object	line:6192
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^ * Build a function that applies props to a vm.$/;"	function	line:6249
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function makePropsLinkFn(props) {$/;"	function	line:6255
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  return function propsLinkFn(vm, scope) {$/;"	function	line:6256
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    vm._props = {};$/;"	object	line:6258
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function getDefault(vm, options) {$/;"	function	line:6311
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  \/\/ call factory function for non-Function types$/;"	function	line:6322
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var terminalDirectives = ['for', 'if'];$/;"	string	line:6334
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^ * inside. This top level compile function would normally$/;"	function	line:6342
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^ * return an unlink function that tearsdown all directives$/;"	function	line:6347
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function compile(el, options, partial) {$/;"	function	line:6356
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  \/\/ link function for the node itself.$/;"	function	line:6357
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  \/\/ link function for the childNodes$/;"	function	line:6359
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^   * A composite linker function to be called on a already$/;"	function	line:6363
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  return function compositeLinkFn(vm, el, host, scope, frag) {$/;"	function	line:6375
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    var dirs = linkAndCapture(function compositeLinkCapturer() {$/;"	function	line:6379
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function linkAndCapture(linker, vm) {$/;"	function	line:6395
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function directiveComparator(a, b) {$/;"	function	line:6413
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^ * Linker functions return an unlink function that$/;"	function	line:6420
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function makeUnlinkFn(vm, dirs, context, contextDirs) {$/;"	function	line:6434
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  return function unlink(destroying) {$/;"	function	line:6435
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function teardownDirs(vm, dirs, destroying) {$/;"	function	line:6451
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function compileAndLinkProps(vm, el, props, scope) {$/;"	function	line:6471
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function compileRoot(el, options, contextOptions) {$/;"	function	line:6495
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  return function rootLinkFn(vm, el, scope) {$/;"	function	line:6536
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    \/\/ return the unlink function that tearsdown context$/;"	function	line:6551
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function compileNode(node, options) {$/;"	function	line:6566
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function compileElement(el, options) {$/;"	function	line:6585
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^      el.value = '';$/;"	string	line:6593
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function compileTextNode(node, options) {$/;"	function	line:6625
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function removeText(vm, node) {$/;"	function	line:6664
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function processTextToken(token, options) {$/;"	function	line:6676
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  function setTokenType(type) {$/;"	function	line:6692
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    token.descriptor = {$/;"	object	line:6695
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^ * Build a function that processes a textNode.$/;"	function	line:6706
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function makeTextNodeLinkFn(tokens, frag) {$/;"	function	line:6712
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  return function textNodeLinkFn(vm, el, host, scope) {$/;"	function	line:6713
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function compileNodeList(nodeList, options) {$/;"	function	line:6746
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^ * Make a child link function for a node's childNodes.$/;"	function	line:6759
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function makeChildLinkFn(linkFns) {$/;"	function	line:6765
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  return function childLinkFn(vm, nodes, host, scope, frag) {$/;"	function	line:6766
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function checkElementDirectives(el, options) {$/;"	function	line:6792
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    tag = '_namedSlot';$/;"	string	line:6798
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function checkComponent(el, options) {$/;"	function	line:6815
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    var descriptor = {$/;"	object	line:6819
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^      modifiers: {$/;"	object	line:6824
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    var componentLinkFn = function componentLinkFn(vm, el, host, scope, frag) {$/;"	function	line:6828
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function checkTerminalDirectives(el, options) {$/;"	function	line:6848
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function skip() {}$/;"	function	line:6871
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^ * Build a node link function for a terminal directive.$/;"	function	line:6875
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^ * A terminal link function terminates the current$/;"	function	line:6876
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function makeTerminalNodeLinkFn(el, dirName, value, options, def) {$/;"	function	line:6888
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  var descriptor = {$/;"	object	line:6890
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  var fn = function terminalNodeLinkFn(vm, el, host, scope, frag) {$/;"	function	line:6902
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function compileDirectives(attrs, options) {$/;"	function	line:6920
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  function pushDir(dirName, def, interp) {$/;"	function	line:7008
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function parseModifiers(name) {$/;"	function	line:7035
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^ * Build a link function for all directives on a single node.$/;"	function	line:7048
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function makeNodeLinkFn(directives) {$/;"	function	line:7054
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  return function nodeLinkFn(vm, el, host, scope, frag) {$/;"	function	line:7055
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function transclude(el, options) {$/;"	function	line:7078
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^      options.template = '<slot><\/slot>';$/;"	string	line:7094
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function transcludeTemplate(el, options) {$/;"	function	line:7120
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function extractAttrs(el) {$/;"	function	line:7170
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function mergeAttrs(from, to) {$/;"	function	line:7184
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function stateMixin (Vue) {$/;"	function	line:7208
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    get: function get() {$/;"	function	line:7217
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    set: function set(newData) {$/;"	function	line:7220
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^        get: function proxyGetter() {$/;"	function	line:7346
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^        set: function proxySetter(val) {$/;"	function	line:7349
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  function noop() {}$/;"	function	line:7383
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^        var def = {$/;"	object	line:7389
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  function makeComputedGetter(getter, owner) {$/;"	function	line:7405
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    return function computedGetter() {$/;"	function	line:7409
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function eventsMixin (Vue) {$/;"	function	line:7451
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  function registerComponentEvents(vm, el) {$/;"	function	line:7475
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  function registerCallbacks(vm, action, hash) {$/;"	function	line:7496
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  function register(vm, action, key, handler, options) {$/;"	function	line:7521
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  function onAttached() {$/;"	function	line:7551
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  function callAttach(child) {$/;"	function	line:7564
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  function onDetached() {$/;"	function	line:7574
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  function callDetach(child) {$/;"	function	line:7587
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function noop() {}$/;"	function	line:7611
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^ * the DOM update function when a change is triggered.$/;"	function	line:7617
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function Directive(descriptor, vm, el, host, scope, frag) {$/;"	function	line:7636
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^ * Check if the directive is a function caller$/;"	function	line:7793
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    var handler = function handler(e) {$/;"	function	line:7808
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^ * Execute a function while preventing that function from$/;"	function	line:7842
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function lifecycleMixin (Vue) {$/;"	function	line:7905
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^        this._fragmentStart.data = this._fragmentEnd.data = '';$/;"	string	line:8012
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    var cleanupIfPossible = function cleanupIfPossible() {$/;"	function	line:8063
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function miscMixin (Vue) {$/;"	function	line:8154
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^        factory(function resolve(res) {$/;"	function	line:8223
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^        }, function reject(reason) {$/;"	function	line:8233
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function globalAPI (Vue) {$/;"	function	line:8244
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  Vue.parsers = {$/;"	object	line:8263
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^   * A function that returns a sub-class constructor with the$/;"	function	line:8325
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  function createClass(name) {$/;"	function	line:8333
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function dataAPI (Vue) {$/;"	function	line:8401
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^        return function statementHandler() {$/;"	function	line:8416
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    return function unwatchFn() {$/;"	function	line:8483
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  function clean(obj) {$/;"	function	line:8564
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function domAPI (Vue) {$/;"	function	line:8569
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    var realCb = function realCb() {$/;"	function	line:8659
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  function insert(vm, target, cb, withTransition, op1, op2) {$/;"	function	line:8684
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  function query(el) {$/;"	function	line:8709
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  function append(el, target, vm, cb) {$/;"	function	line:8722
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  function beforeWithCb(el, target, vm, cb) {$/;"	function	line:8736
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  function removeWithCb(el, vm, cb) {$/;"	function	line:8749
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function eventsAPI (Vue) {$/;"	function	line:8755
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    function on() {$/;"	function	line:8780
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^      this._events = {};$/;"	object	line:8809
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  function modifyListenerCount(vm, event, count) {$/;"	function	line:8909
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function lifecycleAPI (Vue) {$/;"	function	line:8921
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  function ready() {$/;"	function	line:8957
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function Vue(options) {$/;"	function	line:9000
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function limitBy(arr, n, offset) {$/;"	function	line:9027
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function filterBy(arr, search, delimiter) {$/;"	function	line:9040
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  search = ('' + search).toLowerCase();$/;"	string	line:9049
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function orderBy(arr, sortKey, reverse) {$/;"	function	line:9085
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function contains(val, search) {$/;"	function	line:9110
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var filters = {$/;"	object	line:9135
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  json: {$/;"	object	line:9147
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    read: function read(value, indent) {$/;"	function	line:9148
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    write: function write(value) {$/;"	function	line:9151
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  capitalize: function capitalize(value) {$/;"	function	line:9164
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  uppercase: function uppercase(value) {$/;"	function	line:9174
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  lowercase: function lowercase(value) {$/;"	function	line:9182
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  currency: function currency(value, _currency) {$/;"	function	line:9192
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  pluralize: function pluralize(value) {$/;"	function	line:9218
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  debounce: function debounce(handler, delay) {$/;"	function	line:9231
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var partial = {$/;"	object	line:9240
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  paramWatchers: {$/;"	object	line:9247
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^    name: function name(value) {$/;"	function	line:9248
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  bind: function bind() {$/;"	function	line:9256
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  insert: function insert(id) {$/;"	function	line:9262
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  unbind: function unbind() {$/;"	function	line:9273
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var slot = {$/;"	object	line:9291
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  bind: function bind() {$/;"	function	line:9295
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^      var selector = '[slot="' + slotName + '"]';$/;"	string	line:9309
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  tryCompile: function tryCompile(content, context, host) {$/;"	function	line:9319
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  compile: function compile(content, context, host) {$/;"	function	line:9327
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  fallback: function fallback() {$/;"	function	line:9339
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  unbind: function unbind() {$/;"	function	line:9343
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^function extractFragment(nodes, parent, main) {$/;"	function	line:9364
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  function append(node) {$/;"	function	line:9383
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^var elementDirectives = {$/;"	object	line:9392
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^Vue.version = '1.0.13';$/;"	string	line:9398
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^Vue.options = {$/;"	object	line:9409
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  transitions: {},$/;"	object	line:9413
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  components: {},$/;"	object	line:9414
+1	/Users/cantgetnosleep/development/atom-packages/atom-test-package/node_modules/vue/dist/vue.common.js	/^  partials: {},$/;"	object	line:9415

@@ -1,22 +1,25 @@
-<div id="dependency-viewer-vue-template" class='dependency-viewer content'>
+<div v-if="validFile" id="dependency-viewer-vue-template" class='dependency-viewer content valid'>
   <div class='this-depends-on'>
-    <h3>This file depends on:</h3>
+    <h3>{{ currentModuleName }} requires:</h3>
     <ol>
       <template v-for="dep in thisDependsOn">
         <li>
-          <span>{{ dep }}<span>
+          <div>{{ dep }}<div>
         </li>
       </template>
     </ol>
   </div>
   <div class='depends-on-this'>
-    <h3>Files that depend on this:</h3>
+    <h3>Modules that require {{ currentModuleName }}:</h3>
   </div>
   <ol>
     <template v-for="dep in dependsOnThis">
       <li>
-        <span>{{ dep }}<span>
+        <div>{{ dep }}<div>
       </li>
     </template>
   </ol>
+</div>
+<div v-else id="dependency-viewer-vue-template" class='dependency-viewer content invalid'>
+  <h3>Cannot find dependencies for {{ currentFileName }}</h3>
 </div>

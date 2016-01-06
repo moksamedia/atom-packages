@@ -1,11 +1,13 @@
 {allowUnsafeNewFunction} = require 'loophole'
 Vue = require 'vue'
+Vue.config.debug = true
 
 module.exports =
 class DependencyViewerViewModel
 
-  constructor:(@model, @element) ->
+  constructor:(data, element) ->
+    console.log("-DATA = " + JSON.stringify(data))
     @vue = allowUnsafeNewFunction =>
       new Vue
-        el: @element
-        data: @model
+        el: element
+        data: data

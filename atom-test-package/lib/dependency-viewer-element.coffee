@@ -21,11 +21,11 @@ class DependencyViewerElement extends HTMLElement
     @rootElement = this
 
     @scrollView = document.createElement('div')
-    @scrollView.classList.add('scroll-view')
+    @scrollView.classList.add('dependency-viewer-scroll-view')
     @rootElement.appendChild @scrollView
 
     @containerDiv = document.createElement('div')
-    @containerDiv.classList.add('container')
+    @containerDiv.classList.add('dependency-viewer-container')
     @containerDiv.innerHTML = fs.readFileSync(path.join(__dirname, 'dependency-viewer-content-template.html'))
 
     @scrollView.appendChild @containerDiv

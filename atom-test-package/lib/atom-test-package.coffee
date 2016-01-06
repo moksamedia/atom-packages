@@ -8,9 +8,9 @@ DependencyViewerViewModel = require './dependency-viewer-viewmodel'
 module.exports = AtomTestPackage =
 
   coffeescriptPattern: /^.*\.coffee$/
+  visible:false
 
   activate: (state) ->
-    @model = new DependencyViewerModel
 
     @subscriptions = new CompositeDisposable
     @subscriptions.add atom.commands.add 'atom-workspace',
@@ -18,13 +18,7 @@ module.exports = AtomTestPackage =
     @lexer = new Lexer()
 
     atom.workspace.onDidStopChangingActivePaneItem (item) =>
-      @model.setActiveEditor(item)
-
-    atom.views.addViewProvider DependencyViewerModel, (aModel) =>
-      @view = new DependencyViewerView()
-      @view.initialize()
-      @viewModel = new DependencyViewerViewModel @model, @view.getVueElement()
-      @view
+      @model?.setActiveEditor(item)
 
   deactivate: ->
     @subscriptions.dispose()
@@ -39,4 +33,31 @@ module.exports = AtomTestPackage =
     fileName.match(@coffeescriptPattern)
 
   go: ->
-    atom.workspace.addRightPanel({item: @model})
+    @toggle()
+
+  toggle: ->
+    if @isVisible()
+      @detach()
+    else
+      @show()
+
+  isVisible: ->
+    @visible
+
+  show: ->
+    @visible = true
+    @attach()
+
+  attach: ->
+    @model = new DependencyViewerModel()
+    @model.setActiveEditor(atom.workspace.getActivePaneItem())
+    @view = new DependencyViewerView()
+    @view.initialize()
+    @viewModel = new DependencyViewerViewModel @model.getData(), @view.getVueElement()
+    @panel ?= atom.workspace.addRightPanel({item:@view})
+
+  detach: ->
+    @visible = false
+    model = null
+    @panel.destroy()
+    @panel = null

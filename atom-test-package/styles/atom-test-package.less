@@ -20,27 +20,23 @@ atom-text-editor::shadow {
   }
 }
 
-dependency-viewer::shadow {
-  .dependency-viewer--private {
-    height:100%;
-    width:200px;
-  }
-  .scroll-view {
-    height:100%;
-    width:200px;
-    position: relative;
-    z-index: 0;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    -webkit-flex: 1;
-    min-width: 0;
-  }
-  .container {
-    margin-left: 10px;
-    margin-top: 5px;
-    min-width: 100%;
-    position: relative;
-    z-index: 1;
-    background-color: rgb(40, 44, 52);
-  }
+.dependency-viewer-scroll-view {
+  height:100%;
+  width:200px;
+  position: relative;
+  z-index: 0;
+  overflow-x: wrap;
+  overflow-y: scroll;
+  -webkit-flex: 1;
+  min-width: 0;
+}
+.dependency-viewer-container {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+  width:180px;
+  position: relative;
+  z-index: 1;
+  background-color: rgb(40, 44, 52);
+
 }
